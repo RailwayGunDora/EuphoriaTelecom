@@ -1,0 +1,24 @@
+{
+  "name": "telecom-sub-app",
+  "version": "1.0.0",
+  "description": "Telecom Subscriber Management Systems",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "AIPAC",
+    "MERN"
+  ],
+  "author": "Dixon",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^6.9.0"
+  }
+}

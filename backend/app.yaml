@@ -1,0 +1,11 @@
+runtime: nodejs20
+instance_class: F2
+
+env_variables:
+  MONGODB_URI: "mongodb+srv://admin-dixon:TheGerman88@cluster0.apw55.mongodb.net/TelecomSubManagementDB?retryWrites=true&w=majority"
+  JWT_SECRET: "668e72180269b14b0a85c965"
+  PORT: 8080  # App Engine expects your app to listen on $PORT
+
+handlers:
+  - url: /.*
+    script: auto
